@@ -2,6 +2,6 @@
     "code-runner.saveFileBeforeRun": true,
     "code-runner.runInTerminal": true,
     "code-runner.executorMap": {
-        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt -lgdi32 && $dir$fileNameWithoutExt"    
+        "cpp": "cd $dir && g++ -Wall -Wextra -g3 $fileName -o $fileNameWithoutExt -lgdi32 && $dir$fileNameWithoutExt"    
     }
 }
